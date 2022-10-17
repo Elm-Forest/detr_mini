@@ -3,3 +3,6 @@
 This repository mainly restores the structure of [Detr Transformer](https://github.com/facebookresearch/detr/blob/main/models/transformer.py)\
 The original repository from facebookresearch is available at [detr](https://github.com/facebookresearch/detr/blob/main/models/transformer.py)\
 This notebook [detr_mini](https://colab.research.google.com/github/Elm-Forest/detr_mini/blob/master/detr_mini.ipynb) will allow you to more clearly understand how an image with dimension C * H * W works in DETR
+<div>
+	<img src="https://user-images.githubusercontent.com/62285254/194690285-4432101b-fa5e-49e6-93bf-6a1bf160532f.png" width="50%">
+</div>
