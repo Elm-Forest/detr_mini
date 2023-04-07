@@ -21,7 +21,7 @@ output = detr(img)
 logits = output['pred_logits']
 bboxes = output['pred_boxes']
 probas = logits.softmax(-1)[0, :, :-1]
-confidence = 0.8
+confidence = 0.75
 keep = probas.max(-1).values > confidence
 bboxes_scaled = rescale_bboxes(bboxes[0, keep], im.size)
 plot_results(im, probas[keep], bboxes_scaled)
